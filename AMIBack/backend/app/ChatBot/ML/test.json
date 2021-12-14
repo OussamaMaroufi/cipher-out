@@ -1,0 +1,150 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Hi there"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Farewell",
+                "Bye-bye",
+                "I’m out"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I.m AMI assurance, your bot assistant",
+                "I'm AMI assurance, an Artificial Intelligent bot"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me AMI.",
+                "I'm AMI assurance assistant!",
+                "Just call me as ami assirance assiatnt"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please",
+                "help",
+                "hand me"
+            ],
+            "responses": [
+                "Tell me how can assist you",
+                "Tell me your problem to assist you",
+                "Yes Sure, How can I support you"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site",
+                "Just go to our web site and follow the guidelines to create a new account"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "subscribe",
+            "patterns": [
+                "how subscribe",
+                "creation an account",
+                "compte",
+                "open an account",
+                "subscribe",
+                "account client"
+            ],
+            "responses": [
+                "several formulas from the simple RC building site single to the general responsibility building company or the guarantee RC in the all risks building sites?"
+            ]
+        }, {
+            "tag": "assurance",
+            "patterns": [
+                "annual insurance", "AMI Assurances guarantees", ""
+            ],
+            "responses": [
+                "The subscription period is free with a maximum age of 59 on entry and 65 on exit."
+            ]
+        },
+        {
+            "tag": "other",
+            "patterns": [
+                "***"
+            ],
+            "responses": [
+                ""
+            ]
+        }
+    ]
+}
