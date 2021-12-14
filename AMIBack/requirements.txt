@@ -1,0 +1,11 @@
+# Django REST Framework
+
+djangorestframework==3.11.0  # https://github.com/encode/django-rest-framework
+dj-rest-auth==1.0.4
+drf-yasg
+django==3.0.5  # pyup: < 3.1  # https://www.djangoproject.com/
+graphene-django
+django-cors-headers
+django-filter
+django-allauth==0.41.0  # https://github.com/pennersr/django-allauth
+djangorestframework_simplejwt
